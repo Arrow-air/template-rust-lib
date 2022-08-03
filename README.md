@@ -1,30 +1,27 @@
 ![Arrow Banner](https://github.com/Arrow-air/.github/raw/main/profile/assets/arrow_v2_twitter-banner_neu.png)
 
-# MODULE_NAME Service
+# <LIBRARY_NAME> Library
 
 *TODO after cloning:*
-
-1. *Replace the repository name for each:*
+1. Replace the repository name on these badges:
 
 ![Rust
-Checks](https://github.com/arrow-air/svc-template-rust/actions/workflows/rust_ci.yml/badge.svg?branch=main)
-![Python Flake8](https://github.com/arrow-air/svc-template-rust/actions/workflows/python_ci.yml/badge.svg?branch=main)
+Checks](https://github.com/arrow-air/lib-template-rust/actions/workflows/rust_ci.yml/badge.svg?branch=main)
+![Python Flake8](https://github.com/arrow-air/lib-template-rust/actions/workflows/python_ci.yml/badge.svg?branch=main)
 ![Arrow DAO
 Discord](https://img.shields.io/discord/853833144037277726?style=plastic)
 
-2. *Rename `svc-template-rust` and `svc_template_rust` in all files*
-   - *Replace with the name of your service (e.g. `svc-scheduler`)*
-3. *Rename or remove `tmp_lib`*
-4. *Remove this and previous numbered bullets*
+2. Replace all instances of `lib-template-rust` and `lib_template_rust` with the
+   library name.
+3. Add deps to `Cargo.toml`if needed:
+    - [awesome-rust libraries](https://github.com/rust-unofficial/awesome-rust)
+    - godot-rust, tensorflow/rust, etc.
+4. Remove this and all previous numbered bullets.
 
 
 ## :telescope: Overview
-*TODO: This is a high level description of this module.*
 
-Directory:
-- `src/`: Source Code and Unit Tests
-- `tests/`: Integration Tests
-- `docs/`: Module Documentation
+FIXME
 
 ## Installation
 
@@ -40,10 +37,9 @@ cargo test
 ```
 
 ## :scroll: Documentation
-The following documents are relevant to this service:
-- [Concept of Operations](TODO)
-- [Requirements & User Stories](TODO)
-- [SDD](./docs/sdd.md)
+The following documents are relevant to this library:
+- [Concept of Operations](FIXME)
+- [Requirements & User Stories](FIXME)
 
 ## :busts_in_silhouette: Arrow DAO
 Learn more about us:
