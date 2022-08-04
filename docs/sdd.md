@@ -1,12 +1,12 @@
 ![Arrow Banner](https://github.com/Arrow-air/.github/raw/main/profile/assets/arrow_v2_twitter-banner_neu.png)
 
-# \<MODULE NAME\> - Software Design Document (SDD)
+# <LIBRARY_NAME> - Software Design Document (SDD)
 
 ## Overview
 
-This document details the software implementation of FIXME.
+This document details the software implementation of FIXME library.
 
-This process is responsible for FIXME
+This library contains the implementation and testing for FIXME
 
 Attribute | Description
 --- | ---
@@ -19,16 +19,12 @@ Document | Description
 [Concept of Operations (CONOPS) (FIXME)](./FIXME) | Overview of the scope and duties of this module.
 [Requirements & User Stories (FIXME)](./FIXME) | Requirements and user stories for this module.
 
-## Location
-
-FIXME
-
 ## Module Attributes
 
 Attribute | Applies | Explanation
 --- | --- | ---
-Safety Critical | ? | 
-Realtime | ? |
+Safety Critical | Y | 
+Realtime | Y |
 
 ## Global Variables
 
@@ -36,17 +32,7 @@ Realtime | ? |
 
 FIXME
 
-## Logic 
-
-### Initialization
-
-FIXME 
-
-### Control Loop
-
-FIXME
-
-### Cleanup
+**State Machine Status**
 
 FIXME
 
@@ -55,26 +41,30 @@ FIXME
 For a refresher of the processes in the Arrow backend, please see the [top level README.md](../README.md).
 
 ```mermaid
-graph LR
-    subgraph Vehicle Domain
-        air((Aircraft))
+graph TD
+    subgraph Client
+        client[Client App]
     end
 
-    subgraph Client Domain
-        app(App X)
+    subgraph microservice X
+        api[API Gateway]
+        logic{{Logic}}
+        lib((library FIXME))
     end
 
-    subgraph Server Domain
-        module[Module A]
-    end
+    client --> api
+    api --> logic
+    logic --- lib
 ```
 
-FIXME description of the graph.
+FIXME Explanation of the above graph
 
 ## Tests
 
-FIXME
-
 ### Unit Tests
 
-FIXME
+Rust unit testing framework. FIXME
+
+### Integration Tests
+
+Rust integration testing framework. FIXME
