@@ -1,4 +1,4 @@
-# \<MODULE NAME\> - Software Design Document (SDD)
+# \<LIBRARY NAME\> - Software Design Document (SDD)
 
 <center>
 
@@ -21,10 +21,6 @@ Status | Draft
 Document | Description
 --- | ---
 FIXME | FIXME
-
-## Location
-
-FIXME
 
 ## Module Attributes
 
