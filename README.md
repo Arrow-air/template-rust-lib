@@ -14,7 +14,6 @@ Discord](https://img.shields.io/discord/853833144037277726?style=plastic)
 2. *Replace all instances of `lib-template-rust` and `lib_template_rust` with the library name.*
 3. *Remove this and all previous numbered bullets.*
 
-
 ## :telescope: Overview
 
 FIXME
@@ -69,6 +68,19 @@ make python-tidy
 make tidy
 ```
 
+### Spell check
+
+Before being able to commit, cspell will be used as a spelling checker for all files, making sure no unintended spelling errors are found.
+You can run cspell yourself by using the following make target:
+```bash
+make cspell-test
+```
+
+If all spelling errors are fixed, but cspell still finds words that are unknown, you can add these words to the local project words list by running the following command:
+```bash
+make cspell-add-words
+```
+
 ### Other make targets
 
 There are additional make targets available. You can find all possible targets by running make without a target or use `make help`
@@ -84,5 +96,3 @@ Learn more about us:
 - [Website](https://www.arrowair.com/)
 - [Arrow Docs](https://www.arrowair.com/docs/intro)
 - [Discord](https://discord.com/invite/arrow)
-
-
