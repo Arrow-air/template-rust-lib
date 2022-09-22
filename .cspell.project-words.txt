@@ -1,4 +1,5 @@
 clippy
+CONOPS
 ifeq
 maxdepth
 mstruebing
@@ -10,3 +11,4 @@ smul
 taplo
 tput
 yapf
+proto
