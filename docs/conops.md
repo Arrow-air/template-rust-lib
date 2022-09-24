@@ -1,4 +1,4 @@
-# Concept of Operations - `svc-FIXME`
+# Concept of Operations - `lib-FIXME`
 
 <center>
 
@@ -11,11 +11,11 @@ Attribute | Description
 Maintainer | [@Arrow-air/services](https://github.com/orgs/Arrow-air/teams)
 Status | Draft
   
-FIXME: Some of the headings below may not apply to your microservice. Remove if so.
+FIXME: Some of the headings below may not apply to your library. Remove if so.
 
 ## Overview
 
-FIXME - What does this microservice do, in brief?
+FIXME - What does this library do, in brief?
 
 ## Related Documents
 
@@ -23,9 +23,8 @@ Document | Description
 --- | ---
 :construction: High-Level Concept of Operations (CONOPS) | Overview of Arrow microservices.
 :construction: High-Level Interface Control Document (ICD) | Interfaces and frameworks common to all Arrow microservices.
-:construction: Requirements - `svc-FIXME` | Requirements and user stories for this microservice.
-[Interface Control Document (ICD) - `svc-FIXME`](./sdd.md) | Defines the inputs and outputs of this microservice.
-[Software Design Document (SDD) - `svc-FIXME`](./sdd.md) | Specifies the internal activity of this microservice.
+[Interface Control Document (ICD) - `lib-FIXME`](./icd.md) | Defines the inputs and outputs of this library.
+[Software Design Document (SDD) - `lib-FIXME`](./sdd.md) | Specifies the internal activity of this library.
 
 ## Motivation
 
@@ -36,7 +35,7 @@ FIXME - Why is it needed?
 ## Overview of System and Key Elements
 
 ## External Interfaces
-See the ICD for this microservice.
+See the ICD for this library.
 
 ## Proposed Capabilities
 
