@@ -19,7 +19,6 @@ Status | Draft
 Document | Description
 --- | ---
 :construction: High-Level Concept of Operations (CONOPS) | Overview of Arrow microservices.
-:construction: High-Level Interface Control Document (ICD) | Interfaces and frameworks common to all Arrow microservices.
 [Concept of Operations - `lib-FIXME`](./conops.md) | Defines the motivation and duties of this library.
 [Software Design Document (SDD) - `lib-FIXME`](./sdd.md) | Specifies the internal activity of this library.
 

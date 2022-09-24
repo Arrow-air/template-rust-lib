@@ -22,7 +22,6 @@ FIXME - What does this library do, in brief?
 Document | Description
 --- | ---
 :construction: High-Level Concept of Operations (CONOPS) | Overview of Arrow microservices.
-:construction: High-Level Interface Control Document (ICD) | Interfaces and frameworks common to all Arrow microservices.
 [Interface Control Document (ICD) - `lib-FIXME`](./icd.md) | Defines the inputs and outputs of this library.
 [Software Design Document (SDD) - `lib-FIXME`](./sdd.md) | Specifies the internal activity of this library.
 
