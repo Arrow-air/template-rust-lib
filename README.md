@@ -5,6 +5,7 @@
 *TODO after cloning:*
 1. *Replace the repository name on these badges:*
 
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Arrow-air/lib-template-rust?include_prereleases)
 ![Rust
 Checks](https://github.com/arrow-air/lib-template-rust/actions/workflows/rust_ci.yml/badge.svg?branch=main)
 ![Python Flake8](https://github.com/arrow-air/lib-template-rust/actions/workflows/python_ci.yml/badge.svg?branch=main)
@@ -87,8 +88,8 @@ There are additional make targets available. You can find all possible targets b
 
 ## :scroll: Documentation
 The following documents are relevant to this library:
-- [Concept of Operations](FIXME)
-- [Requirements & User Stories](FIXME)
+- [Concept of Operations](./docs/conops.md)
+- :construction: Requirements & User Stories :construction:
 - [Software Design Document](./docs/sdd.md)
 
 ## :busts_in_silhouette: Arrow DAO

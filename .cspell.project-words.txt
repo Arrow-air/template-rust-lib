@@ -13,3 +13,4 @@ tput
 yapf
 proto
 microservices
+commitlint
